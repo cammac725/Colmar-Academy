@@ -226,3 +226,32 @@ li {
 .course-column p {
   padding: 0 0 24px 16px;
 }
+
+/* Thesis section */
+
+.thesis {
+  width:100%;
+  background-color: white;
+  padding: 32px 0;
+}
+
+.thesis h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #404040;
+  text-align: center;
+  padding-bottom: 32px
+}
+
+.columns {
+  display: flex;
+  width: 100%;
+}
+
+.thesis-column-1 {
+  width: 60%;
+}
+
+.thesis-column-2 {
+  width: 40%;
+}
