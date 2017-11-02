@@ -1,6 +1,6 @@
 
 body {
-  
+
 }
 
 html {
@@ -40,7 +40,7 @@ nav div {
 li {
   display: inline;
   padding: 8px;
-  
+
 }
 
 .mobile-menu {
@@ -50,6 +50,8 @@ li {
 .container {
   padding-top: 64px;
 }
+
+/* Banner section */
 
 .banner {
   display: flex;
@@ -100,6 +102,8 @@ li {
 .start a {
   color: white;
 }
+
+/* Information section */
 
 .information {
   display: flex;
@@ -164,7 +168,7 @@ li {
 
 .text .details {
   line-height: 1.3;
-  font-size: 0.85rem; 
+  font-size: 0.85rem;
   padding: 8px 0px;
 }
 
@@ -173,36 +177,52 @@ li {
   color: lightblue;
 }
 
+#lecture {
+  background-color: #dedede;
+}
+ /* Courses section */
+
+.courses {
+  padding: 32px 72px;
+  background-color: #dedede;
+}
+
 .courses h2 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: #404040;
   text-align: center;
-  padding: 32px 0px;
 }
 
-.course {
-
+.course-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
 }
 
-.item {
+.course-row img {
+  width: 100%;
+  height: auto;
+}
+
+.course-column {
   display: flex;
   flex-direction: column;
-  align-items: center
+  background-color: white;
+  width: 30%;
+  margin-right: 32px;
 }
 
-.item .text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 16px 0px 32px 16px;
-}
-
-.item h5 {
+.course-column h5 {
+  padding: 16px 0 0 16px;
   font-weight: bold;
-  color: #404040;
+  font-size: 1.3rem;
 }
-.item p {
-  font-size: 0.9rem;
-  padding:
+
+.course-column h6 {
+  padding: 8px 0 8px 16px;
+}
+
+.course-column p {
+  padding: 0 0 24px 16px;
 }
