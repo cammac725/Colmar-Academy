@@ -273,6 +273,10 @@ li {
     width: 90%;
   }
 
+  .info p {
+    display: block;
+  }
+
   .info .text {
     width: 80%;
     height: auto;
