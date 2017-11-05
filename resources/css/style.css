@@ -42,6 +42,18 @@ nav div {
   align-items: center;
 }
 
+.name {
+  line-height: 32px;
+}
+
+.name h3 {
+  font-weight: 700;
+}
+
+.logo p {
+  font-weight: 300;
+}
+
 li {
   display: inline;
   padding: 8px;
