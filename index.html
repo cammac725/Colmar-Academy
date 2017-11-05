@@ -13,11 +13,11 @@
       <nav>
         <div class="logo">
           <img src="./resources/images/ic-logo.svg" alt="Colmar logo">
-          <div class="name desktop">
+          <div class="name">
             <h3>COLMAR</h3><p>ACADEMY</p>
           </div>
         </div>
-        <div class="menu desktop">
+        <div class="menu">
           <ul>
             <li><a href="#">On campus</a></li>
             <li><a href="#">Online</a></li>
@@ -26,12 +26,10 @@
           </ul>
         </div>
         <div class="mobile-menu">
-          <ul>
-            <li><a href="#" img src="resources/images/ic-logo.svg" alt="Colmar logo"></a></li>
-            <li><a href="#" img src="resources/images/ic-on-campus.svg" alt="on campus"></a></li>
-            <li><a href="#" img src="resources/images/ic-online.svg" alt="online"></a></li>
-            <li><a href="#" img src="resources/images/ic-login.svg" alt="login here"></a></li>
-          </ul>
+          <a href="#"><img src="resources/images/ic-logo.svg" alt="Colmar logo"></a>
+          <a href="#"><img src="resources/images/ic-on-campus.svg" alt="on campus"></a>
+          <a href="#"><img src="resources/images/ic-online.svg" alt="online"></a>
+          <a href="#"><img src="resources/images/ic-login.svg" alt="login here"></a>
         </div>
       </nav>
     </header>
@@ -59,7 +57,8 @@
         <div class="info-column">
           <div class="info-content">
             <div class="info">
-              <img src="resources/images/information-orientation.jpg" alt="orientation">
+              <img src="resources/images/information-orientation.jpg" alt="orientation" class="image-desktop">
+              <img src="resources/images/information-orientation-mobile.jpg" alt="orientation" class="image-mobile">
               <div class="text">
                 <h4 class="title">Orientation date</h4>
                 <p class="details">Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
@@ -69,7 +68,8 @@
           </div>
           <div class="info-content">
             <div class="info">
-              <img src="resources/images/information-campus.jpg" alt="campus">
+              <img src="resources/images/information-campus.jpg" alt="campus" class="image-desktop">
+              <img src="resources/images/information-campus-mobile.jpg" alt="campus" class="image-mobile">
               <div class="text">
                 <h4 class="title">Our campus</h4>
                 <p class="details">Find which campus is close by you</p>
@@ -79,7 +79,8 @@
           </div>
           <div class="info-content">
             <div class="info" id="lecture">
-              <img src="resources/images/information-guest-lecture.jpg" alt="guest lecturer">
+              <img src="resources/images/information-guest-lecture.jpg" alt="guest lecturer" class="image-desktop">
+              <img src="resources/images/information-guest-lecture-mobile.jpg" alt="guest lecturer" class="image-mobile">
               <div class="text">
                 <h4 class="title">Our guest lecture</h4>
                 <p class="details">Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -167,14 +168,13 @@
 <!-- Footer section -->
 
       <footer>
-        <p class="copyright">&copy; 2016 Colmar Academy. All Rights Reserved</p>
+        <span class="copyright">&copy; 2016 Colmar Academy. All Rights Reserved</span>
         <div class="links">
           <ul>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Privacy</a></li>
           </ul>
         </div>
-
       </footer>
 
     </div>
