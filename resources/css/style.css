@@ -4,9 +4,12 @@ html {
   line-height: 1.3rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 header a {
   color: black;
-  text-decoration: none;
 }
 
 footer a {
@@ -128,6 +131,7 @@ li {
 
 .start a {
   color: white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 470px) {
@@ -242,6 +246,7 @@ li {
   font-size: 0.85rem;
   color: lightblue;
 }
+
 
 #lecture {
   background-color: #dedede;
